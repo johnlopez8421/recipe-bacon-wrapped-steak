@@ -5,15 +5,19 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     text-align: left;
+    vertical-align: top;
+
+
 }
 
 /*** All text to be enclosed in P tags ***/
 p {
   margin-top: 1px;
   margin-bottom: 1px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
+#force_break{page-break-after: always;}
 
 [id*="hdg_"] /* Select all "heading" paras */
 {
@@ -41,10 +45,10 @@ p {
 
 /********* GRID BELOW HERE ****************/
 /* debug: show borders around cells ??*/
-/*
+
 [class*='row']{border: 1px solid red !important;}
 [class*='col-']{ border: 1px dashed blue !important;}
-*/
+
 .grid
 {
     margin: 0 auto;
