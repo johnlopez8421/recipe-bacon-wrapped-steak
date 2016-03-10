@@ -41,10 +41,10 @@ p {
 
 /********* GRID BELOW HERE ****************/
 /* debug: show borders around cells ??*/
-
+/*
 [class*='row']{border: 1px solid red !important;}
 [class*='col-']{ border: 1px dashed blue !important;}
-
+*/
 .grid
 {
     margin: 0 auto;
