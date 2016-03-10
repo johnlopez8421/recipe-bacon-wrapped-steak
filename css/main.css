@@ -1,0 +1,52 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/*** All text to be enclosed in P tags ***/
+p {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+
+/*#idvalue{prop_to_set: value;}*/
+/*.classname{prop_to_set:value;}*/
+
+/********* GRID BELOW HERE ****************/
+/* debug: show borders around cells ??*/
+
+[class*='row']{border: 1px solid red !important;}
+[class*='col-']{ border: 1px dashed blue !important;}
+
+.grid
+{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row
+{
+    width: 100%;
+    margin-bottom: 5px; /* override with individual elements */
+    margin-top: 5px;    /* override with individual elements */
+    display: flex;
+}
+
+.col-1  {width:   8.33%;}
+.col-2  {width:  16.66%;}
+.col-3  {width:  25.00%;}
+.col-4  {width:  33.33%;}
+.col-5  {width:  41.66%;}
+.col-6  {width:  50.00%;}
+.col-7  {width:  58.33%;}
+.col-8  {width:  66.66%;}
+.col-9  {width:  75.00%;}
+.col-10 {width:  83.33%;}
+.col-11 {width:  91.66%;}
+.col-12 {width: 100.00%;}
