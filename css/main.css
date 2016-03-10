@@ -4,7 +4,7 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 
 /*** All text to be enclosed in P tags ***/
@@ -14,6 +14,28 @@ p {
   margin-right: 5px;
 }
 
+
+[id*="hdg_"] /* Select all "heading" paras */
+{
+  font-size: 250%;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+[id*="txt_"]
+{
+  font-size: 100%;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+
+[id*="list_"]
+{
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
 /*#idvalue{prop_to_set: value;}*/
 /*.classname{prop_to_set:value;}*/
 
