@@ -5,14 +5,14 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     text-align: left;
-    vertical-align: top;
+    vertical-align: center;
 
 
 }
 
 /*** All text to be enclosed in P tags ***/
 p {
-  margin-top: 1px;
+  margin-top: 10px;
   margin-bottom: 1px;
   margin-right: 10px;
 }
@@ -45,10 +45,10 @@ p {
 
 /********* GRID BELOW HERE ****************/
 /* debug: show borders around cells ??*/
-
+/*
 [class*='row']{border: 1px solid red !important;}
 [class*='col-']{ border: 1px dashed blue !important;}
-
+*/
 .grid
 {
     margin: 0 auto;
